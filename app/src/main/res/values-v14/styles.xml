@@ -1,12 +1,15 @@
 <resources>
 
-    <!-- Base application theme. Versions < API 11 -->
+    <!-- Base application theme. Versions >= API 11 -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Action Bar -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
     </style>
 
 
     <!-- Custom Styles -->
+
     <style name="Medium_Blue" parent="android:TextAppearance.Widget.TextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -15,10 +18,13 @@
     </style>
 
     <!-- Action Bar -->
-    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/aqua</item>
-        <item name="displayOptions">showHome</item>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar" >
+
+        <item name="android:displayOptions">showHome</item>
+        <item name="android:background">@drawable/actionbar_background_color</item>
         <item name="android:height">30dp</item>
+
+
     </style>
     <!-- End Action Bar -->
 
