@@ -1,6 +1,6 @@
 package etp.com.elteuparlament;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -8,7 +8,7 @@ import android.view.MenuInflater;
 //a
 
 
-public class MyActivity extends ActionBarActivity {
+public class MyActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
