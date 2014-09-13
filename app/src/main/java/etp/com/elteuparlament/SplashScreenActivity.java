@@ -6,7 +6,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 
 /**
- * Created by toni on 13/09/14.
+ * Created by toni on 13/09/14 ..
  */
 public class SplashScreenActivity extends Activity{
 
