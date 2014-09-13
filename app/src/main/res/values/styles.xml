@@ -22,4 +22,13 @@
     </style>
     <!-- End Action Bar -->
 
+    <!-- Split ActionBar Style -->
+    <style name="Buttons_SplitActionBar" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_pressed</item>
+
+    </style>
+
+
 </resources>

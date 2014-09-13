@@ -5,4 +5,14 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!--Main Menu !-->
+    <string name="main_menu_follow">Seguint</string>
+    <string name="main_menu_today">Actualitat</string>
+    <string name="main_menu_composition">Composició</string>
+    <string name="main_menu_activities">Activitats</string>
+    <string name="main_menu_commissions">Comissions</string>
+    <string name="main_menu_calendar">Calendari</string>
+
+
+
 </resources>

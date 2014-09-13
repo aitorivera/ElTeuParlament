@@ -7,8 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/bluelight"
-
+        android:background="@color/blue"
         android:gravity="center">
 
         <ImageView
@@ -27,7 +26,7 @@
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
@@ -42,17 +41,18 @@
 
             <TextView
                 style="@style/Medium_Blue"
-                android:text="Seguint"/>
+                android:text="@string/main_menu_follow"/>
 
         </LinearLayout>
 
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@color/brown"/>
+            android:background="@color/brown"
+            android:layout_marginTop="@dimen/margin_app"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
@@ -65,7 +65,7 @@
 
             <TextView
                 style="@style/Medium_Blue"
-                android:text="Seguint"/>
+                android:text="@string/main_menu_today"/>
 
         </LinearLayout>
 
@@ -74,7 +74,9 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/brown"/>
+        android:background="@color/brown"
+        android:layout_marginLeft="@dimen/margin_app"
+        android:layout_marginRight="@dimen/margin_app"/>
 
 
     <LinearLayout
@@ -85,7 +87,7 @@
         android:gravity="center_vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
@@ -98,7 +100,7 @@
 
             <TextView
                 style="@style/Medium_Blue"
-                android:text="Seguint"/>
+                android:text="@string/main_menu_composition"/>
 
         </LinearLayout>
 
@@ -108,7 +110,7 @@
             android:background="@color/brown"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
@@ -121,7 +123,7 @@
 
             <TextView
                 style="@style/Medium_Blue"
-                android:text="Seguint"/>
+                android:text="@string/main_menu_activities"/>
 
         </LinearLayout>
 
@@ -130,7 +132,9 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/brown"/>
+        android:background="@color/brown"
+        android:layout_marginLeft="@dimen/margin_app"
+        android:layout_marginRight="@dimen/margin_app"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -140,7 +144,7 @@
         android:gravity="center_vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
@@ -153,17 +157,18 @@
 
             <TextView
                 style="@style/Medium_Blue"
-                android:text="Seguint"/>
+                android:text="@string/main_menu_commissions"/>
 
         </LinearLayout>
 
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@color/brown"/>
+            android:background="@color/brown"
+            android:layout_marginBottom="@dimen/margin_app"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1"
@@ -176,8 +181,34 @@
 
             <TextView
                 style="@style/Medium_Blue"
-                android:text="Seguint"/>
+                android:text="@string/main_menu_calendar"/>
 
         </LinearLayout>
+
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+           style="@style/Buttons_SplitActionBar"
+            android:text="jpña"
+            android:layout_weight="1"/>
+        <Button
+            style="@style/Buttons_SplitActionBar"
+            android:text="jpña"
+            android:layout_weight="1"/>
+        <Button
+            style="@style/Buttons_SplitActionBar"
+            android:text="jpña"
+            android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+
 </LinearLayout>
